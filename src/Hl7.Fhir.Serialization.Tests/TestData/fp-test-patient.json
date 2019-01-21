@@ -65,7 +65,7 @@
       "id": "3141",
       "text": {
         "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><pre>\r\n            Comorbidity? YES\r\n            Cardial Comorbidity? YES\r\n            Angina? YES\r\n            MI? NO\r\n            Vascular Comorbidity?\r\n            (no answers)\r\n            ...\r\n            Histopathology\r\n            Abdominal\r\n            pT category: 1a\r\n            ...\r\n          </pre></div>"
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><pre>\n            Comorbidity? YES\n            Cardial Comorbidity? YES\n            Angina? YES\n            MI? NO\n            Vascular Comorbidity?\n            (no answers)\n            ...\n            Histopathology\n            Abdominal\n            pT category: 1a\n            ...\n          </pre></div>"
       },
       "status": "draft",
       "date": "2012-01",
