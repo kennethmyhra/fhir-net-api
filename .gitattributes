@@ -25,7 +25,7 @@
 *.htm text
 *.html text
 *.js text
-*.json text
+*.json text eol=lf
 *.msbuild text
 *.nuspec text
 *.resx text
@@ -39,7 +39,7 @@
 *.vbproj text merge=union 
 *.vbs text
 *.wsf text
-*.xml text
+*.xml text eol=lf
 *.xunit text
 
 *.sln text eol=crlf merge=union 
