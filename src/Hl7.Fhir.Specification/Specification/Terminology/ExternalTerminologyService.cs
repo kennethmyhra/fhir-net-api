@@ -36,12 +36,12 @@ namespace Hl7.Fhir.Specification.Terminology
                 return Endpoint.InstanceOperation(new Uri($"{typeName}/{id}"), RestOperation.VALIDATE_CODE, parameters);
         }
 
-        public Resource Expand(Parameters parameters, string id = null, bool useGet = false)
+        ValueSet Expand(Parameters parameters, string id = null, bool useGet = false)
         {
             if (string.IsNullOrEmpty(id))
-                return Endpoint.TypeOperation(RestOperation.EXPAND_VALUESET, FHIRAllTypes.ValueSet.GetLiteral(), parameters);
+                return (ValueSet)Endpoint.TypeOperation(RestOperation.EXPAND_VALUESET, FHIRAllTypes.ValueSet.GetLiteral(), parameters);
             else
-                return Endpoint.InstanceOperation(new Uri($"{FHIRAllTypes.ValueSet.GetLiteral()}/{id}"), RestOperation.EXPAND_VALUESET, parameters);
+                return (ValueSet)Endpoint.InstanceOperation(new Uri($"{FHIRAllTypes.ValueSet.GetLiteral()}/{id}"), RestOperation.EXPAND_VALUESET, parameters);
         }
 
         public Resource Lookup(Parameters parameters, bool useGet = false)

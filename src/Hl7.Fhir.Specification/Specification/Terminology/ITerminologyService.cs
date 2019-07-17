@@ -30,7 +30,7 @@ namespace Hl7.Fhir.Specification.Terminology
         /// <param name="id"></param>
         /// <param name="useGet"></param>
         /// <returns></returns>
-        Resource Expand(Parameters parameters, string id = null, bool useGet = false);
+        ValueSet Expand(Parameters parameters, string id = null, bool useGet = false);
 
         /// <summary>
         /// 
@@ -47,7 +47,7 @@ namespace Hl7.Fhir.Specification.Terminology
         /// <param name="id"></param>
         /// <param name="useGet"></param>
         /// <returns></returns>
-        Resource Translate(Parameters parameters, string id = null, bool useGet = false);
+        Parameters Translate(Parameters parameters, string id = null, bool useGet = false);
 
         /// <summary>
         /// 
